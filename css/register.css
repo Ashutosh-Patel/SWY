@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&display=swap");
+* {
+  margin: .5em;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Comic Neue";
+  color: white;
+}
+
+body {
+  background: #191515;
+}
+
+.info-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 80vh;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container {
+  max-width: 700px;
+  width: 100%;
+  background: #242121d3;
+  padding: 1em 1.5em;
+  border-radius: 8px;
+}
+
+.container form .user-detail {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.container form .user-detail .input-box {
+  width: 280px;
+  margin: 20px 0 12px 0;
+}
+
+.container form .user-detail .input-box span {
+  font-weight: 500;
+}
+
+.container form .user-detail .input-box input {
+  color: #191515;
+  height: 45px;
+  width: 100%;
+  margin-top: 5px;
+}
+
+.container form .button input {
+  float: left;
+  background: #191515;
+  color: white;
+  text-decoration: none;
+  padding: 0.4em 1.3em;
+  font-size: 1em;
+  border-radius: 5em;
+  border: none;
+}
+
+.container form .button input:hover {
+  font-weight: bold;
+  background: white;
+  color: #191515;
+}
+
+footer {
+  margin: 0;
+  padding: 0;
+  background: #242121d3;
+  text-align: center;
+  font-size: 1em;
+  color: gray;
+}
+/*# sourceMappingURL=register.css.map */
